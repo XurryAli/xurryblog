@@ -1,0 +1,15 @@
+#front{
+	padding: 80px;
+}
+#front h2{
+	line-height: 60px;
+}
+#front span{
+	line-height: 30px;
+	color: #006699;
+	margin-right: 10px;
+}
+#front img{
+	display: block;
+	padding: 20px;
+}
