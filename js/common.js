@@ -18,6 +18,15 @@ $(document).ready(function () {
 
     checkScrollPosition();
 
+    // nav bar
+    $('.navbar-toggle').click(function(){
+        $('.main-menu').toggleClass('show');
+    });
+
+    $('.main-menu a').click(function(){
+        $('.main-menu').removeClass('show');
+    });
+    
      $('.navbar-brand').on('click',function(){
       window.location.href = "index.html"
     })
