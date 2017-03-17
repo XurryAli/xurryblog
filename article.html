@@ -19,6 +19,12 @@
     
     <div class="container">
       <section class="col-md-12 content" id="front">
+        <div class="item-header">
+           <i class="fa fa-bookmark fa-2x bookmark"></i>
+           <span class="sort">前端日志</span>
+           <span class="time">2017.3.17</span>
+           <span class="classify">TCP</span>
+        </div>
         <h2>简述TCP三次握手</h2>
         <span>作者:</span>
         <span>Xurry</span>
@@ -46,7 +52,7 @@
             <p>3.服务端完成数据传输后向客户端发送Sequence Number为y+1的FIN报文段，请求关闭连接，服务器进入LAST_ACK状态；</p>
             <p>4.客户端收到服务端的FIN报文段后，向服务端应答一个Acknowledgment Number为Sequence Number+1的ACK报文段，然后客户端进入TIME_WAIT状态；服务端收到客户端的ACK报文段后关闭连接进入CLOSED状态，客户端等待2MSL后依然没有收到回复，则证明服务端已正常关闭，客户端此时关闭连接进入CLOSED状态。</p>
           </div>
-          
+
         </div>
         <div class="greeting"><span>Wish you have a nice day</span></div>
       </section>

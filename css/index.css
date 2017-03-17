@@ -295,6 +295,9 @@ footer{margin:5.0rem 0 0  0;}
         height: 50px;
         margin-left: 10px;
     }
+    .footer{
+        font-size: 12px !important;
+    }
      .content-item {
         min-height: 650px !important;
     }
