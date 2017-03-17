@@ -28,12 +28,12 @@ section{box-shadow: 5px 5px 25px #dadada;background: white;}
 
 /*头部*/
 .fixed-header{width:100%;float:left;position:fixed;top:0;z-index:111;transition:all 0.4s;-webkit-transition:all 0.4s;padding: 35px 0px;}
-.header{width: 60px; height: 60px; border-radius: 50%; display: block; float: left;  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(250, 250, 250, 0.5)));}
+.header{width: 60px; height: 60px; margin: 10px 0; border-radius: 50%; display: block; float: left;  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(250, 250, 250, 0.5)));}
 .navbar-toggle {position: absolute;top: 8px;right: 18px;margin: 0;z-index: 99999999;color: #fff;padding: 10px 10px;background-color: #006699;border: none;font-weight: bold;display:none;}
-.navbar-brand {color: rgba(2, 61, 105, 0.80);font-weight:300;font-size: 38px;}
+.navbar-brand {color: rgba(2, 61, 105, 0.80);font-weight:300;font-size: 38px; margin-top: 10px;}
 .navbar-brand:hover,
 .navbar-brand:focus {color: #93FAFF;}
-.fixed-header ul{padding:0;float:right;margin:0;}
+.fixed-header ul{padding:0;float:right;margin:0; margin-top: 10px;}
 .fixed-header ul li{display:inline-block;padding: 15px 0px;}
 .fixed-header ul li a{text-decoration:none;color:rgba(2, 61, 105, 0.80);font-size: 20px;font-weight: 300;padding: 10px 30px;}
 .fixed-header ul li a:hover,
@@ -104,6 +104,11 @@ footer{margin:5.0rem 0 0  0;}
 /*媒体查询*/
 
 @media screen and (max-width:1199px){
+    .header{
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
     .background p {
         line-height: 22px;        
     }
@@ -132,6 +137,11 @@ footer{margin:5.0rem 0 0  0;}
 }
 
 @media screen and (max-width: 1199px) and (min-width: 992px) {
+    .header{
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
     .background {
         padding: 25px;
     }
@@ -147,6 +157,11 @@ footer{margin:5.0rem 0 0  0;}
 }
 
 @media screen and (max-width:991px){
+    .header{
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
 
     /*.content-item {
         min-height: inherit !important;
@@ -182,6 +197,11 @@ footer{margin:5.0rem 0 0  0;}
 }
 
 @media screen and (max-width:767px){
+    .header{
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
     .content-item {
         min-height: 580px !important;
     }
@@ -248,12 +268,22 @@ footer{margin:5.0rem 0 0  0;}
 }
 
 @media screen and (max-width:500px) {
+    .header{
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
     .btn {
         margin-top: 10px;
     }
 }
 
 @media screen and (max-width: 420px) {
+    .header{
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
     .background {
         padding: 40px 35px;
     }
@@ -263,6 +293,11 @@ footer{margin:5.0rem 0 0  0;}
     }
 }
 @media screen and (max-width: 390px) {
+    .header{
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
      .content-item {
         min-height: 650px !important;
     }
