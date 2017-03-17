@@ -3,8 +3,12 @@
 function checkScrollPosition() {
     if($(window).scrollTop() > 50) {
       $(".fixed-header").addClass("scroll");
+      $(".fixed-header a").css("color", "white");
+      $('.navbar-brand').css("color", "white");
   } else {        
       $(".fixed-header").removeClass("scroll");
+      $('.navbar-brand').css("color", "rgba(2, 61, 105, 0.80)");
+      $(".fixed-header a").css("color", "rgba(2, 61, 105, 0.80)");
   }
 }
 

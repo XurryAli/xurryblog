@@ -12,14 +12,18 @@ a:focus {
 body{
     margin:0;
     padding:0;
-    background-image:url(../images/back.jpg);
-    background-repeat:no-repeat;
-    background-size:100% 100%;
+    background-image:url(../images/background.png);
+    /*background-repeat:no-repeat;
+    background-size:100% 100%;*/
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight:300;
     text-align:justify; 
     text-justify:distribute-all-lines;
+}
+section{
+    box-shadow: 5px 5px 25px #dadada;
+    background: white;
 }
 .row {
     margin-right: 0px;
@@ -57,7 +61,7 @@ p {
     display:none;
 }
 .navbar-brand {
-    color: #fff;
+    color: rgba(2, 61, 105, 0.80);
     font-weight:300;
     font-size: 38px;
 }
@@ -76,7 +80,7 @@ p {
 }
 .fixed-header ul li a{
     text-decoration:none;
-    color:#fff;
+    color:rgba(2, 61, 105, 0.80);
     font-size: 20px;
     font-weight: 300;
     padding: 10px 30px 0;    
@@ -93,6 +97,9 @@ p {
     background: rgba(2, 61, 105, 0.80);
     padding: 0;
 }
+.fixed-header.Color{
+    color: white;
+}
 .fixed-header.scroll .navbar-brand {
     font-size: 30px;
 }
@@ -105,7 +112,13 @@ p {
 }
 #front {
     background: white;
-    margin-top: 8.5em;
+    margin: 8.5em 0 5.0rem 0;
+}
+#travel{
+    margin: 0 0 5.0rem 0;
+}
+#about{
+    margin: 0 0 5.0rem 0;
 }
 .content {
     padding-right: 0px;
@@ -114,7 +127,8 @@ p {
 .content-item {
     padding-right: 0px;
     padding-left: 0px;
-    min-height:570px !important;
+    min-height:400px !important;
+    /*border-bottom: 2px dashed #98b7ff; */
 }
 .content-item .more{
     float: right;
@@ -135,11 +149,15 @@ p {
 .last {
     padding-right: 0px;
     padding-left: 0px;
-    min-height:284px !important;    
+    min-height:325px !important;    
 }
 .background {
     background-color: #fff;
-    padding: 55px 45px;
+    padding: 25px 45px 25px 45px;
+}
+.bg{
+    background: rgba(2, 61, 105, 0.80);
+    color: white;
 }
 .about-text-container {
     font-style: italic;
@@ -156,18 +174,19 @@ p {
 .about-text {
     margin-bottom: 0;
     line-height: 1.6;
+    text-align: center;
 }
 .main-title {    
     font-weight: 300;
     font-size: 34px;
     line-height: 1.4;
-    margin-top: 50px;
-    margin-bottom: 70px;
+    margin: 40px 0;
 }
 .section-title {
     font-size: 1.5em;
     margin-top: 0;
     margin-bottom: 25px;
+    text-align: center;
 }
 .dark-blue-text {
     color: #006699;
@@ -221,6 +240,7 @@ p {
     line-height: 27px;
 }
 .btn {
+    float: right;
     border-radius:0px;
     padding: 0;
     margin-top: 20px;
@@ -273,7 +293,6 @@ p {
 .green-btn {
     background:#168887;
     border:1px solid #168887;
-    margin-right: 0;
 }
 .green-btn a{
     color:#fff;
@@ -316,11 +335,17 @@ p {
     padding-left: 0;
     padding-right: 0;
 }
+
+/*底部*/
+footer{
+    margin:5.0rem 0 0  0;
+}
 .footer {
     color:#fff;
     font-size: 14px;
     font-weight: 400;
-    padding:48px 0;
+    padding:20px 0;
+    z-index: 99;
 }
 .footer a {
 	color: #FF6;
@@ -346,13 +371,13 @@ p {
     margin-bottom: 25px;
 }
 
+
+
+
+
+/*媒体查询*/
+
 @media screen and (max-width:1199px){
-    .content-item {
-        min-height: 470px !important;
-    }
-    .content-item img {
-        min-height: 470px !important;
-    }
     .background p {
         line-height: 22px;        
     }
@@ -373,7 +398,7 @@ p {
         background-color: #fff;        
     }
     .last {
-        min-height: 235px !important;
+        min-height: 400px !important;
     }
     textarea#message {
         height: 125px;
@@ -383,9 +408,6 @@ p {
 @media screen and (max-width: 1199px) and (min-width: 992px) {
     .background {
         padding: 25px;
-    }
-    .background.content-item-1 {
-        padding: 0 40px;
     }
     .btn {
         margin-top: 10px;
@@ -400,9 +422,9 @@ p {
 
 @media screen and (max-width:991px){
 
-    .content-item {
+    /*.content-item {
         min-height: inherit !important;
-    }
+    }*/
     .content-item img {
         min-height: inherit !important;
     }
@@ -434,6 +456,9 @@ p {
 }
 
 @media screen and (max-width:767px){
+    .content-item {
+        min-height: 580px !important;
+    }
     .last {
         min-height: inherit !important;
     }
@@ -464,7 +489,7 @@ p {
     }
     .main-menu ul {
         width: 100%;
-        background-color: #023D69;
+        background: rgba(2, 61, 105, 0.80);
     }
     .main-menu {
         max-height: 0;
@@ -478,7 +503,7 @@ p {
     }
     .main-menu ul li {
         display: block;
-        padding: 10px 0px;
+        padding: 10px 10px;
         width: 100%;
         float:left;
     }
@@ -486,6 +511,7 @@ p {
         padding: 0px 0px;
         width: 100%;
         float: left;
+        color: white !important;
     }
     #home {
         padding-top: 62px;
@@ -501,18 +527,26 @@ p {
     }
 }
 
-@media screen and (max-width: 480px) {
-    .background.content-item-1 {
-        padding: 40px 45px;
-    }
-}
-
 @media screen and (max-width: 420px) {
     .background {
         padding: 40px 35px;
     }
-    .background.content-item-1 {
-        padding: 20px 25px;
+    .bg{
+        background: rgba(2, 61, 105, 0.80);
+        color: white;
     }
 }
+@media screen and (max-width: 390px) {
+     .content-item {
+        min-height: 650px !important;
+    }
+    .background {
+        padding: 40px 35px;
+    }
+    .bg{
+        background: rgba(2, 61, 105, 0.80);
+        color: white;
+    }
+}
+
 
