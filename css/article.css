@@ -1,3 +1,9 @@
+
+section b{
+	display: block;
+	margin: 20px 0;
+}
+
 #front{
 	padding: 8%;
 }
@@ -22,7 +28,9 @@
 	text-justify:distribute-all-lines;
 }
 .article-content img{
-	width: 100%;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
 	height: 100%;
 }
 .greeting{
@@ -32,4 +40,7 @@
 .greeting span{
 	color: #ccc !important;
 	font-size: 12px !important;
+}
+#xternals{
+	color: black;
 }
