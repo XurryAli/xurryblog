@@ -12,6 +12,19 @@ function checkScrollPosition() {
   }
 }
 
+function showTopIcon(){
+  if($(window).scrollTop() > 50) {
+      $(".uptop").fadeIn(500);
+  } else {        
+      $(".uptop").fadeOut(500);
+  }
+}
+
+$(".uptop").on('click',function(){
+    console.log(123)
+    $('body,html').animate({scrollTop:0},500);
+})
+
 $(document).ready(function () {   
     // Single page nav
     $('.fixed-header').singlePageNav({
@@ -34,8 +47,10 @@ $(document).ready(function () {
      $('.navbar-brand').on('click',function(){
       window.location.href = "index.html"
     })
+
 });
 
 $(window).on("scroll", function() {
+    showTopIcon();
     checkScrollPosition();    
 });
