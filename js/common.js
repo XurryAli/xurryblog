@@ -8,7 +8,7 @@ function checkScrollPosition() {
   } else {        
       $(".fixed-header").removeClass("scroll");
       $('.navbar-brand').css("color", "rgba(2, 61, 105, 0.80)");
-      $(".fixed-header a").css("color", "rgba(2, 61, 105, 0.80)");
+      $(".fixed-header a").css("color", "#81C2D6");
   }
 }
 

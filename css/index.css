@@ -35,9 +35,9 @@ section{box-shadow: 5px 5px 25px #dadada;background: white;}
 .navbar-brand:focus {color: #93FAFF;}
 .fixed-header ul{padding:0;float:right;margin:0; margin-top: 10px;}
 .fixed-header ul li{display:inline-block;padding: 15px 0px;}
-.fixed-header ul li a{text-decoration:none;color:rgba(2, 61, 105, 0.80);font-size: 20px;font-weight: 300;padding: 10px 30px;}
+.fixed-header ul li a{text-decoration:none;color:#81C2D6;font-size: 20px;font-weight: 300;padding: 10px 30px;}
 .fixed-header ul li a:hover,
-.fixed-header ul li .current{color: #93FAFF;border-bottom:2px solid #006699;}
+.fixed-header ul li .current{color: #81C2D6;border-bottom:2px solid #81C2D6;}
 .fixed-header {background: transparent;}
 .fixed-header.scroll {background: rgba(2, 61, 105, 0.80);padding: 0;}
 .fixed-header.Color{color: white;}

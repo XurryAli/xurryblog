@@ -22,26 +22,30 @@
         <div class="item-header">
            <i class="fa fa-bookmark fa-2x bookmark"></i>
            <span class="sort">前端日志</span>
-           <span class="time">2017.3.17</span>
            <span class="classify">TCP</span>
         </div>
         <h2>简述TCP三次握手</h2>
         <span>作者:</span>
-        <span>Xurry</span>
-        <span>2017.3.15 15:54</span>
+        <span class="author">Xurry</span>
+        <span class="time">2017.3.17 15:54</span>
         <div class="article-content">
           <p class="main-text">TCP（Transmission Control Protocol 传输控制协议）是一种面向连接的、可靠的、基于字节流的传输层通信协议。TCP工作在网络OSI七层模型中的第四层-传输层，下面一张图展示OSI七层模型及每一层的作用和对应的协议。</p>
+
           <img src="images/tcp1.png">
-          <p class="main-text">TCP是传输层协议，在进行数据传输之前使用三次握手协议建立连接，大体的过程是客户端发出SYN连接请求后，服务端接收请求后应答SYN+ACK，客户端收到服务端应答后应答ACK，这种建立连接的方法可以防止产生错误的连接，防止已失效的连接请求报文段突然又传送到了服务端。TCP三次握手过程图示如下：</p>
-          
+
+          <p class="main-text">TCP是传输层协议，在进行数据传输之前使用三次握手协议建立连接，大体的过程是客户端发出SYN连接请求后，服务端接收请求后应答SYN+ACK，客户端收到服务端应答后应答ACK，这种建立连接的方法可以防止产生错误的连接，防止已失效的连接请求报文段突然又传送到了服务端。</p>
+
+          <b>TCP三次握手过程图示如下：</b>
+
           <img src="images/tcp2.png">
 
           <b>TCP三次握手过程描述如下：</b>
           <div class="main-text">
             <p>1.客户端发送SYN标志位为1，Sequence Number为x的连接请求报文段，然后客户端进入SYN_SEND状态，等待服务器的确认响应；</p>
             <p>2.服务器收到客户端的连接请求，对这个SYN报文段进行确认，然后发送Acknowledgment Number为x+1(Sequence Number+1)，SYN标志位和ACK标志位均为1，Sequence Number为y的报文段（即SYN+ACK报文段）给客户端，此时服务器进入SYN_RECV状态；</p>
-            <p>3.客户端收到服务器的SYN+ACK报文段，确认ACK后，发送Acknowledgment Number为y+1，SYN标志位为0，ACK标志位为1的报文段，发送完成后，客户端和服务器端都进入ESTABLISHED状态，完成TCP三次握手，客户端和服务器端成功地建立连接，可以开始传输数据了。当数据传送完成后，为了正确完整的完成数据传输，需要经过四次挥手断开连接。TCP四次挥过程图示如下：</p>
+            <p>3.客户端收到服务器的SYN+ACK报文段，确认ACK后，发送Acknowledgment Number为y+1，SYN标志位为0，ACK标志位为1的报文段，发送完成后，客户端和服务器端都进入ESTABLISHED状态，完成TCP三次握手，客户端和服务器端成功地建立连接，可以开始传输数据了。当数据传送完成后，为了正确完整的完成数据传输，需要经过四次挥手断开连接。</p>
           </div>
+          <b>TCP四次挥过程图示如下：</b>
 
           <img src="images/tcp3.png">
 
