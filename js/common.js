@@ -3,14 +3,24 @@
 function checkScrollPosition() {
     if($(window).scrollTop() > 50) {
       $(".fixed-header").addClass("scroll");
-      $(".fixed-header a").css("color", "white");
-      $('.navbar-brand').css("color", "white");
+      $(".fixed-header a").css("color", "white"); 
+      $(".main-menu a").on("mouseover",function(){
+        $(this).css("border-bottom","2px solid white")
+      }).on("mouseleave",function(){
+        $(this).css("border","none")
+      })
   } else {        
       $(".fixed-header").removeClass("scroll");
-      $('.navbar-brand').css("color", "rgba(2, 61, 105, 0.80)");
-      $(".fixed-header a").css("color", "#81C2D6");
+      $(".fixed-header a").css("color", "#006699");
+      $(".main-menu a").on("mouseover",function(){
+        $(this).css("border-bottom","2px solid #006699")
+      }).on("mouseleave",function(){
+        $(this).css("border","none")
+      })
   }
 }
+
+
 
 function showTopIcon(){
   if($(window).scrollTop() > 50) {

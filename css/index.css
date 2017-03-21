@@ -36,11 +36,8 @@ section{box-shadow: 5px 5px 25px #dadada;background: white;}
 .fixed-header ul{padding:0;float:right;margin:0; margin-top: 10px;}
 .fixed-header ul li{display:inline-block;padding: 15px 0px;}
 .fixed-header ul li a{text-decoration:none;color:#81C2D6;font-size: 20px;font-weight: 300;padding: 10px 30px;}
-.fixed-header ul li a:hover,
-.fixed-header ul li .current{color: #81C2D6;border-bottom:2px solid #81C2D6;}
 .fixed-header {background: transparent;}
 .fixed-header.scroll {background: rgba(2, 61, 105, 0.80);padding: 0;}
-.fixed-header.Color{color: white;}
 .fixed-header.scroll .navbar-brand {font-size: 30px;}
 
 /*主体部分*/
@@ -94,7 +91,7 @@ section{box-shadow: 5px 5px 25px #dadada;background: white;}
 footer{margin:5.0rem 0 0  0;}
 .footer {color:#fff;font-size: 14px;font-weight: 400;padding:20px 0;}
 .footer a {color: #FF6;}
-.bg{background: rgba(2, 61, 105, 0.80);color: white;}
+.bg{background: url(../images/background.gif);color: white;}
 
 /*返回顶部*/
 .uptop{position: fixed; text-align: center; display: none; line-height: 60px; color: white; cursor: pointer; right: 20px; bottom: 50px; border-radius: 50%; width: 50px;height: 50px;background:rgba(2, 61, 105, 0.80);  }
