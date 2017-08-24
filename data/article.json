@@ -1,0 +1,48 @@
+{
+    "status": true,
+    "currentPage": 1,
+    "perPage": 8,
+    "maxSize": 5,
+    "data":[
+        {
+            "articleTitle": "我和这个世界不熟",
+            "articleId": "article_1",
+            "articleAuthor": "北岛",
+            "articleImg": "./images/components/article_01.png",
+            "articleContent": "<p>我和这个世界不熟。</p><p>这并非是我安静的原因。</p><p>我依旧有很多问题，</p><p>问南方，问故里，问希望，问距离</p><p>我和这个世界不熟。</p><p>这并非是我绝望的原因。</p><p>我依旧有很多热情，</p><p>给分开，给死亡，给昨天，给安寂。</p><p>我和这个世界不熟。</p><p>这并非是我虚假的原因。</p><p>我依旧有很多真诚，</p><p>离不开，放不下，活下去，爱得起</p><p>我和这个世界不熟。</p><p>这并非是我孤寂的原因。</p><p>我依旧有很多诉求，</p><p>需慰藉，待分享，惹心烦，告诉你。</p><p>我和这个世界不熟。 </p><p>这并非是我冷漠的原因。 </p><p>我依旧有很多动情， </p><p>为时间，为白云，为天黑，畏天命。 </p><p>我和这个世界不熟。</p><p>这并非是我逃避的原因。</p><p>我依旧有很多憧憬， <p>对梦想，对记忆，对失败，对希冀。</p><p>我和这个世界不熟。</p><p>这并非是我卑微的原因。</p><p>我依旧有很多勇敢，</p><p>不信输，不信神，不信天，不信地。</p><p>我和这个世界不熟。</p><p>这并非是我失落的原因。 </p><p>我依旧有很多高昂， </p><p>有存在，有价值，有独特，有意义。 </p><p>我和这个世界不熟。 </p><p>这并非是我迷茫的原因。 </p><p>我依旧有很多方向， </p><p>往前走，回头望，会跳跃，会停息。</p><p>我和这个世界不熟。 </p><p>这并非是我撕裂的原因。 </p><p>我依旧有很多完整， </p><p>至少我要成全我自己。 </p><p>我和这个世界不熟。 </p><p>这并非是我选择死亡或者生存的原因。 </p><p>我依旧有很多选择， </p><p>刚巧，这两者，都不是选项之一。</p> ",
+            "articleTime": "2017.3.17 15:54",
+            "articleType": "个人日志",
+            "articleClassify": "摘抄"
+        },
+        {
+            "articleTitle": "你的孤独，虽败犹荣",
+            "articleId": "article_2",
+            "articleAuthor": "刘同",
+            "articleImg": "./images/components/article_02.png",
+            "articleContent": "<p>也许你现在仍是</p><p>一个人下班</p><p>一个人乘地铁</p><p>一个人上楼</p><p>一个人吃饭</p><p>一个人睡觉</p><p>然而你却能</p><p>一个人下班</p><p>一个人乘地铁</p><p>一个人上楼</p><p>一个人吃饭</p><p>一个人睡觉</p><p>很多人离开了另外一个人</p><p>就没有了自己</p><p>而你却一个人</p><p>度过了所有</p><p>你的孤独，虽败犹荣</p>",
+            "articleTime": "2017.8.21",
+            "articleType": "个人日志",
+            "articleClassify": "摘抄"
+        },
+        {
+            "articleTitle": "家",
+            "articleId": "article_3",
+            "articleAuthor": "Xurry",
+            "articleImg": "./images/components/article_03.png",
+            "articleContent": "<p>他说“有你在的日子我没羡慕过任何人”</p><p>我说“我在家的日子我哪里也不想去”</p><p>家，这个词有一种魔力，让你时时刻刻心系着她，我无法给出一个具体的定义，只能通过一些简单的表达来勾勒一个蓝图。</p><p></p><p>无论走得多远，无论飞得多高，当你想要停下脚步安安心心的休息一下的时候，你首先想到的就是那个被称为家的地方；</p><p>无论房子大小，无论存款多少，当你想要逃离纷扰觅一方可放松的净土的时候，你首先想到的就是那个被称为家的地方；</p><p>无论现实如何，无论社会怎样，当你想要不顾形象歇斯打理的爆发一下的时候，你首先想到的依旧是那个被称为家的地方。</p><p>小时候</p><p>家是一天的起点和一天的终点</p><p>从来没想过离开家的时候会是怎么样</p><p>那是，听到人家说想家只觉得可笑</p><p>长大后</p><p>家是梦里的起点和终点</p><p>总想着回到家之后会是怎么样</p><p>现在，听到人家说想家只觉得感同身受</p><p>妈妈说：</p><p>以前回到家书包一放就出去玩，叫都叫不回来；现在回到家背包一放，赶都赶不出去</p><p>明天就可以回家了</p><p>回到那个被称为家的地方</p><p>回到那个被形容为温暖的地方</p><p>回到那个被叫做避风港的地方</p>",
+            "articleTime": "2017.8.1",
+            "articleType": "个人日志",
+            "articleClassify": "随笔"
+        },
+        {
+            "articleTitle": "简述TCP三次握手",
+            "articleId": "article_4",
+            "articleAuthor": "Xurry",
+            "articleImg": "./images/components/article_04.png",
+            "articleContent": "<p class='main-text'>TCP（Transmission Control Protocol 传输控制协议）是一种面向连接的、可靠的、基于字节流的传输层通信协议。TCP工作在网络OSI七层模型中的第四层-传输层，下面一张图展示OSI七层模型及每一层的作用和对应的协议。</p><img src='images/tcp1.png'><p class='main-text'>TCP是传输层协议，在进行数据传输之前使用三次握手协议建立连接，大体的过程是客户端发出SYN连接请求后，服务端接收请求后应答SYN+ACK，客户端收到服务端应答后应答ACK，这种建立连接的方法可以防止产生错误的连接，防止已失效的连接请求报文段突然又传送到了服务端。</p><b>TCP三次握手过程图示如下：</b><img src='images/tcp2.png'><b>TCP三次握手过程描述如下：</b><div class='main-text'><p>1.客户端发送SYN标志位为1，Sequence Number为x的连接请求报文段，然后客户端进入SYN_SEND状态，等待服务器的确认响应；</p><p>2.服务器收到客户端的连接请求，对这个SYN报文段进行确认，然后发送Acknowledgment Number为x+1(Sequence Number+1)，SYN标志位和ACK标志位均为1，Sequence Number为y的报文段（即SYN+ACK报文段）给客户端，此时服务器进入SYN_RECV状态；</p><p>3.客户端收到服务器的SYN+ACK报文段，确认ACK后，发送Acknowledgment Number为y+1，SYN标志位为0，ACK标志位为1的报文段，发送完成后，客户端和服务器端都进入ESTABLISHED状态，完成TCP三次握手，客户端和服务器端成功地建立连接，可以开始传输数据了。当数据传送完成后，为了正确完整的完成数据传输，需要经过四次挥手断开连接。</p></div><b>TCP四次挥过程图示如下：</b><img src='images/tcp3.png'><b>TCP四次挥手过程描述如下：</b><div class='main-text'><p>1.客户端发送Sequence Number为x+2，Acknowledgment Number为y+1的FIN报文段，客户端进入FIN_WAIT_1状态，即告诉服务端没有数据需要传输了，请求关闭连接；</p><p>2.服务端收到客户端的FIN报文段后，向客户端应答一个Acknowledgment Number为Sequence Number+1的ACK报文段，即应答客户端你的请求我收到了，但是我还没准备好，请等待我的关闭请求。客户端收到后进入FIN_WAIT_2状态；</p><p>3.服务端完成数据传输后向客户端发送Sequence Number为y+1的FIN报文段，请求关闭连接，服务器进入LAST_ACK状态；</p><p>4.客户端收到服务端的FIN报文段后，向服务端应答一个Acknowledgment Number为Sequence Number+1的ACK报文段，然后客户端进入TIME_WAIT状态；服务端收到客户端的ACK报文段后关闭连接进入CLOSED状态，客户端等待2MSL后依然没有收到回复，则证明服务端已正常关闭，客户端此时关闭连接进入CLOSED状态。</p></div>",
+            "articleTime": "2017.3.17 15:54",
+            "articleType": "前端日志",
+            "articleClassify": "TCP"
+        }
+    ]
+}

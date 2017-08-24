@@ -1,6 +1,6 @@
 $('.travelThis').on('click',function(){
-	$.alert("Sorry,文章被哮天犬吃了，正在追凶中...静候！")
+	window.location.href = "article-list.html?t=" +new Date().getTime();
 })
 $('.travelMore').on('click',function(){
-	$.alert("Sorry,其它文章被哮天犬吃了，正在追凶中...静候！")
+	window.location.href = "article-list.html?t=" +new Date().getTime();
 })
