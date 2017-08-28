@@ -23,6 +23,7 @@ body {
     background-color: #FFFFFF;
     text-align:justify;
     text-justify:distribute-all-lines;
+    background: url(../images/background.png)
 }
 img{display: block;}
 em,i {font-style: normal}
