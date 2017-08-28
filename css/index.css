@@ -54,7 +54,7 @@ section{box-shadow: 5px 5px 25px #dadada;background: white;}
 .fixed-header{width:100%;float:left;position:fixed;top:0;z-index:111;transition:all 0.4s;-webkit-transition:all 0.4s;padding: 35px 0px;}
 .header{width: 60px; height: 60px; margin: 10px 0; border-radius: 50%; display: block; float: left;  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent), to(rgba(250, 250, 250, 0.5)));}
 .navbar-toggle {position: absolute;top: 8px;right: 18px;margin: 0;z-index: 99999999;color: #fff;padding: 10px 10px;background-color: #006699;border: none;font-weight: bold;display:none;}
-.navbar-brand {color: rgba(2, 61, 105, 0.80);font-weight:300;font-size: 38px; margin: 10px 0;}
+.navbar-brand {color: rgba(2, 61, 105, 0.80);font-weight:300;font-size: 38px; margin: 10px 0;padding: 20px 15px;}
 .navbar-brand:hover,
 .navbar-brand:focus {color: #93FAFF;}
 .fixed-header ul{padding:0;float:right;margin:0; margin-top: 10px;}
