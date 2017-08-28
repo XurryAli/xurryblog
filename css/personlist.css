@@ -2,7 +2,7 @@
 * @Author: Xurry
 * @Date:   2017-08-24 14:15:31
 * @Last Modified by:   Xurry
-* @Last Modified time: 2017-08-28 10:13:38
+* @Last Modified time: 2017-08-28 10:21:30
 */
 
 /* article page css */
@@ -43,6 +43,10 @@ body{
 	transition: all 1s ease-out 0.3s;
 }
 
+.main .article>.article-wraper{
+	padding: 40px;
+	border-bottom: 1px dashed #dedede;
+}
 .main .article .right-img{
 	overflow: hidden;
 	padding: 0;
@@ -57,10 +61,6 @@ body{
 	float: right;
 	border-right: 3px solid #dedede;
 	color: #dedede;
-}
-.main .article>div{
-	padding: 40px;
-	border-bottom: 1px dashed #dedede;
 }
 .main .article .article-wraper:last-child{
 	border-bottom: none;
