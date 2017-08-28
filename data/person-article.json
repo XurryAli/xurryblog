@@ -10,28 +10,32 @@
             "articleId": "article_1",
             "articleImg": "./images/components/article_01.png",
             "articleContent": "我和这个世界不熟。 这并非是我选择死亡或者生存的原因。 我依旧有很多选择， 刚巧，这两者，都不是选项之一。 ",
-            "articleTime": "2017.8.23"
+            "articleTime": "2017.8.23",
+            "articleClassify": "摘抄"
         },
         {
             "articleTitle": "你的孤独，虽败犹荣",
             "articleId": "article_2",
             "articleImg": "./images/components/article_02.png",
             "articleContent": "很多人离开了另外一个人，就没有了自己，而你却一个人，度过了所有，你的孤独，虽败犹荣。",
-            "articleTime": "2017.8.21"
+            "articleTime": "2017.8.21",
+            "articleClassify": "摘抄"
         },
         {
             "articleTitle": "家",
             "articleId": "article_3",
             "articleImg": "./images/components/article_03.png",
             "articleContent": "他说“有你在的日子我没羡慕过任何人，我说“我在家的日子我哪里也不想去”。",
-            "articleTime": "2017.8.1"
+            "articleTime": "2017.8.1",
+            "articleClassify": "随笔"
         },
         {
             "articleTitle": "简述TCP三次握手",
             "articleId": "article_4",
             "articleImg": "./images/components/article_04.png",
             "articleContent": "TCP（Transmission Control Protocol 传输控制协议）是一种面向连接的、可靠的、基于字节流的传输层通信协议。",
-            "articleTime": "2017.7.21"
+            "articleTime": "2017.7.21",
+            "articleClassify": "TCP"
         }
     ]
 }

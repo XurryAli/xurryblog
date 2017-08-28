@@ -2,7 +2,7 @@
 * @Author: Xurry
 * @Date:   2017-08-24 14:15:31
 * @Last Modified by:   Xurry
-* @Last Modified time: 2017-08-24 17:55:15
+* @Last Modified time: 2017-08-28 10:13:38
 */
 
 /* article page css */
@@ -20,7 +20,6 @@ body{
 	font-size: 24px;
 	padding-left: 70px;
 	text-align: right;
-	border-right: 4px solid #dedede;
 }
 
 .main .article .wraper-true{
@@ -53,6 +52,11 @@ body{
 	width: 100%;
 	height: 100%;
 	border-radius: 5px;
+}
+.main .article .article-wraper .classify{
+	float: right;
+	border-right: 3px solid #dedede;
+	color: #dedede;
 }
 .main .article>div{
 	padding: 40px;

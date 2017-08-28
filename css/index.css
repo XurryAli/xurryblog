@@ -1,13 +1,36 @@
-
-
+/*reset CSS*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    background-color: #FFFFFF;
+    text-align:justify;
+    text-justify:distribute-all-lines;
+}
+img{display: block;}
+em,i {font-style: normal}
+ul,ol,li{list-style-type: none}
 a,
 a:hover,
 a:focus {text-decoration: none;cursor: pointer;}
 a:focus {outline: none;}
-body{margin:0;padding:0;background-image:url(../images/background.png);
-/*background-repeat:no-repeat;background-size:100% 100%;*/
-    font-family: 'Open Sans', sans-serif;font-size: 16px;font-weight:300;text-align:justify; text-justify:distribute-all-lines;
-}
 section{box-shadow: 5px 5px 25px #dadada;background: white;}
 
 /*配置样式*/
