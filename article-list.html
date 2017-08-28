@@ -38,6 +38,8 @@
 							<p class="article-content" ng-bind="articleNum.articleContent"></p>
 							<div class="pub-time">
 								<div class="time clearfix">
+									<span>作者：</span>
+									<span ng-bind="articleNum.articleAuthor"></span>
 									<span class="article-time" ng-bind="articleNum.articleTime">2017-7-6</span> •
 									<a ng-href="{{articleUrl}}" ng-click="getArticle($event, articleNum.articleId)">查 看</a>
 								</div>

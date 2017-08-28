@@ -2,7 +2,7 @@
 * @Author: Xurry
 * @Date:   2017-08-24 14:15:31
 * @Last Modified by:   Xurry
-* @Last Modified time: 2017-08-28 10:34:17
+* @Last Modified time: 2017-08-28 15:37:48
 */
 
 /* article page css */
@@ -81,13 +81,20 @@ body{
 .main .article .left-content .pub-time{
 	padding: 20px 0;
 }
+.main .article .left-content .time{
+	padding: 0 10px;
+	border-left: 2px solid #006699;
+}
 .main .article .left-content .time a{
 	margin-left: 10px;
 }
 .main .article .left-content .time span{
-	border-left: 2px solid #F65111;
+	color: #ccc;
+}
+.main .article .left-content .time span.article-time{
 	padding: 0 10px;
 }
+
 .pagin{
 	float: right;
 }
